@@ -55,8 +55,15 @@ class NeuralNetwork:
         for layer in reversed(self.layers):
             error = layer.backward(error)
 
+    def _set_phase(self, training: bool):
+        for layer in self.layers:
+            # only flip layers that actually have this attribute
+            if hasattr(layer, 'testing_phase'):
+                layer.testing_phase = not training
+
     def train(self, iterations):
         self.loss = []
+        self._set_phase(training=True)       # <-- ensure layers know we're training
         for _ in range(iterations):
             l = self.forward()
             self.loss.append(l)
@@ -64,6 +71,7 @@ class NeuralNetwork:
         return self.loss
 
     def test(self, input_tensor):
+        self._set_phase(training=False)      # <-- switch to inference mode
         x = input_tensor
         for layer in self.layers:
             x = layer.forward(x)

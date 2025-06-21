@@ -36,3 +36,89 @@ On the UCI ML hand-written digits dataset, we achieve an accuracy of: 95.6594323
 On the Iris dataset, we achieve an accuracy of: 94.0%
 On the Iris dataset, we achieve an accuracy of: 100.0%
 On the Iris dataset, we achieve an accuracy of: 94.0%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.49582637729549%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 98.49749582637729%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 98.33055091819699%
+On the UCI ML hand-written digits dataset using L1_regularizer we achieve an accuracy of: 96.4941569282137%
+On the UCI ML hand-written digits dataset using L2_regularizer we achieve an accuracy of: 96.661101836394%
+On the UCI ML hand-written digits dataset using Dropout we achieve an accuracy of: 90.98497495826378%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 98.0%
+On the Iris dataset using Batchnorm, we achieve an accuracy of: 82.0%
+On the Iris dataset using Dropout, we achieve an accuracy of: 64.0%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.9966611018364%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 98.1636060100167%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 96.99499165275459%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.32888146911519%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 98.49749582637729%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 97.66277128547578%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.16193656093489%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 97.66277128547578%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 96.8280467445743%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 97.16193656093489%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 98.49749582637729%
+On the UCI ML hand-written digits dataset using L1_regularizer we achieve an accuracy of: 97.32888146911519%
+On the UCI ML hand-written digits dataset using L2_regularizer we achieve an accuracy of: 97.32888146911519%
+On the UCI ML hand-written digits dataset using Dropout we achieve an accuracy of: 88.14691151919867%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 98.0%
+On the Iris dataset using Batchnorm, we achieve an accuracy of: 82.0%
+On the Iris dataset using Dropout, we achieve an accuracy of: 48.0%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 95.99332220367279%
+On the UCI ML hand-written digits dataset using L1_regularizer we achieve an accuracy of: 96.16026711185309%
+On the UCI ML hand-written digits dataset using L2_regularizer we achieve an accuracy of: 97.16193656093489%
+On the UCI ML hand-written digits dataset using Dropout we achieve an accuracy of: 87.97996661101837%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 98.0%
+On the Iris dataset using Batchnorm, we achieve an accuracy of: 86.0%
+On the Iris dataset using Dropout, we achieve an accuracy of: 57.99999999999999%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 95.82637729549248%
+On the UCI ML hand-written digits dataset using L1_regularizer we achieve an accuracy of: 96.4941569282137%
+On the UCI ML hand-written digits dataset using L2_regularizer we achieve an accuracy of: 97.16193656093489%
+On the UCI ML hand-written digits dataset using Dropout we achieve an accuracy of: 96.8280467445743%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 100.0%
+On the Iris dataset using Batchnorm, we achieve an accuracy of: 98.0%
+On the Iris dataset using Dropout, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 98.6644407345576%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.32888146911519%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 98.6644407345576%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 97.66277128547578%
+On the UCI ML hand-written digits dataset using L1_regularizer we achieve an accuracy of: 97.49582637729549%
+On the UCI ML hand-written digits dataset using L2_regularizer we achieve an accuracy of: 95.32554257095158%
+On the UCI ML hand-written digits dataset using Dropout we achieve an accuracy of: 94.99165275459099%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 98.0%
+On the Iris dataset using Batchnorm, we achieve an accuracy of: 98.0%
+On the Iris dataset using Dropout, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.9966611018364%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 98.33055091819699%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 96.99499165275459%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 97.9966611018364%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.66277128547578%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 96.8280467445743%
+On the UCI ML hand-written digits dataset using L1_regularizer we achieve an accuracy of: 96.661101836394%
+On the UCI ML hand-written digits dataset using Batch_norm and L2 we achieve an accuracy of: 97.66277128547578%
+On the UCI ML hand-written digits dataset using Batch_norm we achieve an accuracy of: 98.1636060100167%
+On the UCI ML hand-written digits dataset using ADAM we achieve an accuracy of: 97.8297161936561%
+On the UCI ML hand-written digits dataset using L1_regularizer we achieve an accuracy of: 96.4941569282137%
+On the UCI ML hand-written digits dataset using L2_regularizer we achieve an accuracy of: 95.99332220367279%
+On the UCI ML hand-written digits dataset using Dropout we achieve an accuracy of: 96.32721202003339%
+On the Iris dataset, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 98.0%
+On the Iris dataset using Batchnorm, we achieve an accuracy of: 98.0%
+On the Iris dataset using Dropout, we achieve an accuracy of: 96.0%
+On the Iris dataset, we achieve an accuracy of: 96.0%

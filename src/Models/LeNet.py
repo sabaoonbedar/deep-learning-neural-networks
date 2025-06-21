@@ -1,6 +1,7 @@
 import numpy as np
-from ..Layers import FullyConnected, Flatten, ReLU, SoftMax, Conv, Pooling, He, Constant
+from ..Layers import FullyConnected, Flatten, ReLU, SoftMax, Conv, Pooling
 from ..Optimization.Optimizers import Sgd
+from ..Layers.Initializers import He, Constant
 
 
 class LeNet:

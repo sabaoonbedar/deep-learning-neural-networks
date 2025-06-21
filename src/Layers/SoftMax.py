@@ -1,5 +1,7 @@
+# Layers/SoftMax.py
+
 import numpy as np
-from .Base import BaseLayer
+from Layers.Base import BaseLayer
 
 class SoftMax(BaseLayer):
     """
@@ -19,5 +21,11 @@ class SoftMax(BaseLayer):
         return self.output_tensor
 
     def backward(self, error_tensor: np.ndarray) -> np.ndarray:
-        # Assumes cross-entropy is used, so this is just (prediction - target)
-        return error_tensor
+        """
+        Propagate through the softmax Jacobian:
+        dL/dz = S ⊙ (dL/dy - sum(dL/dy * S, axis=1, keepdims=True))
+        """
+        s = self.output_tensor
+        # dot each row of error_tensor with the Jacobian of softmax
+        inner = np.sum(error_tensor * s, axis=1, keepdims=True)
+        return s * (error_tensor - inner)
