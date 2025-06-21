@@ -1,4 +1,5 @@
-__all__ = ["Helpers", "FullyConnected", "SoftMax", "ReLU", "Conv", "Pooling", "Initializers", "Flatten", "Base"]
+__all__ = ["Helpers", "FullyConnected", "SoftMax", "ReLU", "Flatten", "TanH", "Sigmoid", "RNN",
+           "Conv", "Pooling", "Initializers", "Dropout", "BatchNormalization", "Base", "LSTM"]
 import sklearn.preprocessing as _skpre
 _orig_ohe = _skpre.OneHotEncoder
 

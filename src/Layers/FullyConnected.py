@@ -79,3 +79,8 @@ class FullyConnected(BaseLayer):
 
         # Discard bias component to match input dimensions
         return error_ext[:, :-1]
+
+    def calculate_regularization_loss(self):
+        if self._optimizer is not None and self._optimizer.regularizer is not None:
+            return self._optimizer.regularizer.norm(self.weights)
+        return 0

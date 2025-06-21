@@ -1,4 +1,5 @@
 import copy
+import pickle
 
 class NeuralNetwork:
     """
@@ -34,9 +35,20 @@ class NeuralNetwork:
     def forward(self):
         x, label = self.data_layer.next()
         self._label = label
+
+        # Forward pass through all layers
         for layer in self.layers:
             x = layer.forward(x)
-        return self.loss_layer.forward(x, label)
+
+        # Compute loss
+        loss = self.loss_layer.forward(x, label)
+
+        # Add regularization loss from each trainable layer
+        for layer in self.layers:
+            if hasattr(layer, 'calculate_regularization_loss'):
+                loss += layer.calculate_regularization_loss()
+
+        return loss
 
     def backward(self):
         error = self.loss_layer.backward(self._label)
@@ -56,3 +68,15 @@ class NeuralNetwork:
         for layer in self.layers:
             x = layer.forward(x)
         return x
+
+    @staticmethod
+    def save(path, network):
+        with open(path, 'wb') as f:
+            pickle.dump(network, f)
+
+    @staticmethod
+    def load(path, data_layer):
+        with open(path, 'rb') as f:
+            net = pickle.load(f)
+        net.data_layer = data_layer
+        return net

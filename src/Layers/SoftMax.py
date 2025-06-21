@@ -3,21 +3,21 @@ from .Base import BaseLayer
 
 class SoftMax(BaseLayer):
     """
-    SoftMax activation to produce class probabilities.
+    SoftMax activation layer.
+    Converts logits to probabilities for classification tasks.
     """
     def __init__(self):
         super().__init__()
-        # Non-trainable activation
+        self.trainable = False
+        self.output_tensor = None
 
     def forward(self, input_tensor: np.ndarray) -> np.ndarray:
-        # Shift for numerical stability
-        shifted = input_tensor - np.max(input_tensor, axis=1, keepdims=True)
-        exps = np.exp(shifted)
-        self.output = exps / np.sum(exps, axis=1, keepdims=True)
-        return self.output
+        # Subtract max for numerical stability
+        input_stable = input_tensor - np.max(input_tensor, axis=1, keepdims=True)
+        exp_input = np.exp(input_stable)
+        self.output_tensor = exp_input / np.sum(exp_input, axis=1, keepdims=True)
+        return self.output_tensor
 
     def backward(self, error_tensor: np.ndarray) -> np.ndarray:
-        # Vectorized Jacobian-product: dL/dz = y * (error - sum(error*y))
-        y = self.output
-        dot = np.sum(error_tensor * y, axis=1, keepdims=True)
-        return y * (error_tensor - dot)
+        # Assumes cross-entropy is used, so this is just (prediction - target)
+        return error_tensor
